@@ -3,7 +3,7 @@ from pydantic import BaseModel, HttpUrl
 from typing import List, Dict, Optional, Any
 from langchain.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 import os
 import uuid
